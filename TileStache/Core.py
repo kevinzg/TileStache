@@ -146,7 +146,7 @@ The preview can be accessed through a URL like /<layer name>/preview.html:
 import logging
 from sys import modules
 from wsgiref.headers import Headers
-from io import BytesIO
+from StringIO import StringIO as BytesIO
 
 from .py3_compat import urljoin
 
